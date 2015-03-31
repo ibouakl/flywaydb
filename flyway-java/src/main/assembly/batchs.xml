@@ -1,0 +1,28 @@
+<assembly>
+	<id>batchs</id>
+	<formats>
+		<format>tar.gz</format>
+	</formats>
+
+	<includeBaseDirectory>true</includeBaseDirectory>
+	<files>
+		<file>
+			<source>doc/database.properties</source>
+			<outputDirectory>conf</outputDirectory>
+			<filtered>true</filtered>
+		</file>
+		
+		<file>
+			<source>src/main/conf/logback.xml</source>
+			<outputDirectory>conf</outputDirectory>
+			<filtered>true</filtered>
+		</file>
+	</files>
+	<dependencySets>
+		<dependencySet>
+			<outputDirectory>/lib</outputDirectory>
+			<unpack>false</unpack>
+			<scope>runtime</scope>
+		</dependencySet>
+	</dependencySets>
+</assembly>
