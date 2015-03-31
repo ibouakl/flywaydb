@@ -14,7 +14,7 @@
 		</encoder>
 	</appender>
 
-	<logger name="com.cra.db.flyway" level="INFO">
+	<logger name="fr.ibouakl.java.sample.flyway" level="INFO">
 		<appender-ref ref="FILE" />
 	</logger>
 
