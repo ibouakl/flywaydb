@@ -33,7 +33,6 @@ public class MainTest {
     @Inject
     JdbcTemplate dbJdbcTemplate;
     
-    
     @Inject
     private ApplicationContext context;
     
