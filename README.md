@@ -1,4 +1,5 @@
 **Pour flyway-java:**
+Les fichiers de migration sont dans **src/main/resources/db/migration**
 
 Installation :
 
@@ -8,4 +9,5 @@ Dans le répertoire mm-conf, renommez et éditez les fichiers :
    
 Exemple d'utilisation (depuis la racine du batch) : 
 
-java -jar lib/flyway-sample-java-0.0.0-SNAPSHOT.jar -o migrate
+Pour migrate:
+java -jar lib/flyway-sample-java-0.0.1-SNAPSHOT.jar -o migrate
