@@ -1,4 +1,4 @@
-**Pour flyway-java:**
+**Pour le batch flyway-java:**
 
 Les fichiers de migration(**.sql**) sont dans **src/main/resources/db/migration**. Dans ce dossier , vous pouvez placer les fichiers **(.sql)** pour la migration.
 
