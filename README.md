@@ -1,6 +1,8 @@
 **Pour flyway-java:**
 
-Les fichiers de migration sont dans **src/main/resources/db/migration**
+Les fichiers de migration(**.sql**) sont dans **src/main/resources/db/migration**. Dans ce dossier , vous pouvez placer les fichiers **(.sql)** pour la migration.
+
+Lancer mvn clean:install 
 
 Installation :
 
