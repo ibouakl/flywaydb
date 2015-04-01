@@ -2,7 +2,9 @@
 
 Les fichiers de migration(**.sql**) sont dans **src/main/resources/db/migration**. Dans ce dossier , vous pouvez placer les fichiers **(.sql)** pour la migration.
 
-Lancer mvn clean:install 
+* Lancer **mvn clean:install**  pour générer le ficher tar.gz.
+* Décompresser le fichier tar.gz.
+ 
 
 Installation :
 
