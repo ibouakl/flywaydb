@@ -2,6 +2,8 @@
 
 Les fichiers de migration(**.sql**) sont dans **src/main/resources/db/migration**. Dans ce dossier , vous pouvez placer les fichiers **(.sql)** pour la migration.
 
+Les fichiers de migration(**.java**) sont dans **src/main/java/db/migration**. Dans ce package , vous pouvez placer les fichiers de migration **(.java)**.
+
 * Lancer **mvn clean:install**  pour générer le ficher tar.gz.
 * Décompresser le fichier tar.gz.
  
