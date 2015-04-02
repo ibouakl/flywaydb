@@ -24,3 +24,7 @@ java -jar lib/flyway-sample-java-0.0.1-SNAPSHOT.jar -o migrate
 
 **ATTENTION: 
 **
+
+Si la base de données n'est pas vide, il faut penser à créer la table metadata et l'initialiser avec la version qui répresente l'état actuel de la base de données.  Pour cela, il suffit de faire un sql dump pour la base de données et nommer la fichier V0_32_1__Init_database.sql, mettre ce fichier dans src/main/resources/migration/db puis lancer le commande baseline: 
+
+**java -jar lib/flyway-sample-java-0.0.1-SNAPSHOT.jar -o baseline -blv 0.32.1**
