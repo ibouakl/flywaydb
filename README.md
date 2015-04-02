@@ -12,7 +12,7 @@ Installation :
 
 Dans le répertoire mm-conf, renommez et éditez les fichiers :
  
- - database.properties.template pour y renseigner les accès vers la base de données  à partir de laquelle vous voulez faire la migration. Renommer le fichier database.properties.template  to database.properties
+ - database.properties.template pour y renseigner les accès vers la base de données  à partir de laquelle vous voulez faire la migration. Renommer le fichier database.properties.template  par database.properties
    
 Exemple d'utilisation (depuis la racine du batch) : 
 
