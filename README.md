@@ -15,7 +15,7 @@ Les fichiers de migration(**.java**) sont dans **src/main/java/db/migration**. D
 
 Installation :
 
-Dans le répertoire mm-conf, renommez et éditez les fichiers :
+Dans le répertoire conf, renommez et éditez les fichiers :
  
  - database.properties.template pour y renseigner les accès vers la base de données  à partir de laquelle vous voulez faire la migration. Renommer le fichier database.properties.template  par database.properties
    
