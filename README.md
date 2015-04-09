@@ -1,11 +1,6 @@
 **Pour le batch flyway-java:**
 
-
-```
 Clone the project using git clone https://ibouakl@bitbucket.org/ibouakl/flyway-examples.git
-
-Change into the directory flyway-java and run mvn clean install.
-```
 
 
 
