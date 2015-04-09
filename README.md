@@ -1,4 +1,4 @@
-**Pour le batch flyway-java:**
+**Pour le batch flyway-sample-java:**
 
 Clone the project using git clone https://ibouakl@bitbucket.org/ibouakl/flyway-examples.git
 
