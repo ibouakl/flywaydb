@@ -23,7 +23,7 @@ public class DBConfig {
     }
     
     @Bean
-    public Flyway craDevFlyway(@Value("${flyway.bdd.url}") final String url, 
+    public Flyway dbFlyway(@Value("${flyway.bdd.url}") final String url, 
         @Value("${flyway.bdd.user}") final String username, 
         @Value("${flyway.bdd.password}") final String password) {
         Flyway flyway = new Flyway();
