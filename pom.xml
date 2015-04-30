@@ -6,7 +6,8 @@
   <packaging>pom</packaging>
   <modules>
 		<module>flyway-sample-java</module>
-	</modules>
+		<module>flyway-sample-maven</module>
+  </modules>
   <dependencyManagement>
 		<dependencies>
 			<!-- Spring -->
